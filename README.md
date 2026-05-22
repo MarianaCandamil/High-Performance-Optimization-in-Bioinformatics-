@@ -22,13 +22,13 @@ The datasets used in this study cannot be publicly shared because they correspon
 ## Parallel Version
 
 ```bash
-gcc -O3 demultiplex_q1.c -lpthread -o demux
+gcc -O3 demultiplex_all_mmapSec.c -lpthread -o demux
 ```
 
 ## Sequential Version
 
 ```bash
-gcc -O3 demultiplex_q1.c -o demux
+gcc -O3 demultiplex_all_mmapSec.c -o demux
 ```
 
 ---
