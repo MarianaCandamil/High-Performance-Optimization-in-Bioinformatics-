@@ -46,6 +46,7 @@ This folder contains the implementations related to FASTQ read-length filtering.
 | `filter_longitud_sec1.c` | Sequential C `mmap` Filter |
 | `filter_longitud_par1.c` | Parallel C `mmap` Filter |
 | `filter_longitud_maleable.c` | Parallel C `mmap` Malleable Filter |
+| `job.fastp.sh` | Slurm job using fastp as reference parallel filter program |
 
 ---
 
