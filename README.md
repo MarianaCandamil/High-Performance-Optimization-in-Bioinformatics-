@@ -31,6 +31,18 @@ gcc -O3 demultiplex_all_mmapSec.c -lpthread -o demux
 gcc -O3 demultiplex_all_mmapSec.c -o demux
 ```
 
+## CPU Profiling
+
+To generate a CPU execution profile, compile the C implementation with profiling support enabled:
+
+```bash
+gcc -pg -fopenmp -O2 -o demultiplex_all_profile demultiplex_all.c
+```
+
+For the Python implementation, execute the script with cProfile:
+```python
+python -m cProfile -o perfil_cpu.prof filter_longitud.py
+```
 ---
 
 # Repository Structure
